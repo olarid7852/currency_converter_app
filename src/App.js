@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from "react";
 import "./App.css";
 import { Route, Router, Link } from "react-router-dom";
 import Navigation from "./Components/Navigation";
@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <div>
-          <Route path="/Navigation" component={Navigation} />
+          <Route path="/navigation" component={Navigation} />
         </div>
       </React.Fragment>
     );
